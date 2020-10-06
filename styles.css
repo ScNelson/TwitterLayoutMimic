@@ -38,6 +38,7 @@ body{
 
 #feedList{
     list-style: none;
+    padding: 0;
 }
 
 #profContent{
@@ -59,4 +60,38 @@ body{
 
 .statusReact {
     margin-left: 100px;
+}
+
+.trendTop {
+    color: gray;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.trendName {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.trendBottom {
+    color: gray;
+    font-size: 12px;
+}
+
+.showMoreTrend {
+    color: primary;
+    font-size: 12px;
+}
+
+.followName {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.followHandle {
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
 }
