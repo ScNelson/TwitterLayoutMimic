@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Feed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Start of Overall Container-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--Start of Left Column-->
+            <div class="col-md-3">
+                <nav class="navbar">
+                    <a class="navbar-brand">
+                        <img src="https://image.flaticon.com/icons/png/512/124/124021.png" width="30" height="30" alt="">
+                      </a>
+                </nav>
+                <ul class="list-group text-white">
+                    <li class="list-group-item darkBG">Home</li>
+                    <li class="list-group-item darkBG">Explore</li>
+                    <li class="list-group-item darkBG">Notifications</li>
+                    <li class="list-group-item darkBG">Messages</li>
+                    <li class="list-group-item darkBG">Bookmarks</li>
+                    <li class="list-group-item darkBG">Lists</li>
+                    <li class="list-group-item darkBG">Profile</li>
+                    <li class="list-group-item darkBG">More</li>
+                </ul>
+                <button class="btn btn-primary tweet-btn" type="submit">Tweet</button>
+            </div>
+            <!--End of Left Column-->
+            <!--Start of Center Column-->
+            <div class="col-md-5">
+                <!-- Image and text -->
+                <nav class="navbar navbar-light">
+                    <a class="navbar-brand">Home</a>
+                    <form class="form-inline">
+                        <a class="navbar-brand">Image</a>
+                    </form>
+                </nav>
+            </div>
+            <!--End of Center Column-->
+            <!--Start of Right Column-->
+            <div class="col-md-4">
+                <input class="form-control" type="text" placeholder="Search Twitter" aria-label="Search">
+            </div>
+            <!--End of Right Column-->
+        </div>
+    </div>
+    <!--End of Overall Container-->
+</body>
+</html>

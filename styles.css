@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(0, 5, 10);
+}
+
+.darkBG{
+    background-color: rgb(0, 5, 10);
+}
+
+.tweet-btn {
+    position: relative;
+    width: 100%;
+}
