@@ -10,3 +10,29 @@ body{
     position: relative;
     width: 100%;
 }
+
+.homeNav {
+    border-bottom: 1px solid cornsilk;
+}
+
+.statusItem{
+    border: 1px solid cornsilk;
+    border-top: none;
+}
+
+.feedItem{
+    border: 1px solid cornsilk;
+    border-top: none;
+}
+
+.trendItem{
+    border: 1px solid cornsilk;
+}
+
+.profCircle{
+    border-radius: 1.5rem;
+}
+
+#feedList{
+    list-style: none;
+}
