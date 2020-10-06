@@ -15,7 +15,7 @@ body{
     border-bottom: 1px solid cornsilk;
 }
 
-.statusItem{
+.statusHeader{
     border: 1px solid cornsilk;
     border-top: none;
 }
@@ -27,6 +27,9 @@ body{
 
 .trendItem{
     border: 1px solid cornsilk;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(3, 3, 3);
 }
 
 .profCircle{
@@ -35,4 +38,25 @@ body{
 
 #feedList{
     list-style: none;
+}
+
+#profContent{
+    display: inline;
+    list-style: none;
+}
+
+.nameHeader{
+    margin-left: 20px;
+}
+
+.statusHeaderItem {
+    margin-left: 20px;
+}
+
+.statusItem {
+    margin-top: 10px;
+}
+
+.statusReact {
+    margin-left: 100px;
 }
